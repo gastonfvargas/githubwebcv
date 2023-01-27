@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gaston Vargas CV</title>
+</head>
+
+<body>
+
+    <!--BARRA DE NAVEGACION-->
+    <header>
+      <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#sobremi">Sobre mi</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--JS-->
+    <script src="function.js"></script>
+    
+    <main>
+        <!--INICIO-->
+        <section id="hero">
+            <h2>¡Hola Mundo!</h2>
+            <h1>Soy Gaston Vargas</h1>
+            <h2>-Frontend Developer Trainee-</h2>
+        </section>
+        
+        <!--SOBREMI-->
+        <section class="sobremi" id="sobremi">
+            <h2>Sobre mi</h2>
+            <div class="contenedor">
+                
+                <div class="foto">
+                <img src="img/foto.jpg" alt="">
+                </div>
+
+                <div class="textos">
+                <p>🔹 ​Hola! Mi nombre es Gaston Vargas, tengo 23 años, y soy de Buenos Aires, Lanús.</p>
+                <br>
+                <p>🔹 Actualmente me encuentro trabajando en G&L Group en el área de Soporte Técnico, en dicha area desarrollo las siguientes tareas: 
+                </p>
+                <br>
+                <ul>
+                    <li>◻️ Asistencia y soporte en forma remota por Anydesk.</li>
+                    <li>◻️ ​Administración de cuentas en Google Workspace.</li>
+                    <li>◻️​​ Instalación y Configuración de Windows 10.</li>
+                    <li>◻️ Instalación y Activación de Microsoft Office.</li>
+                    <li>◻️ Reacondicionamiento de equipos.</li>
+                    <li>◻️​​ Instalación de Programas y Drivers.</li>
+                    <li>◻️ Control de inventario y movimiento de equipos.</li>
+                </ul>
+                <br>
+               <p>🔹 En <strong>2022</strong> pude acceder a una beca de <strong> Junior Achievement Argentina</strong>, en alianza con <strong>Google </strong> y <strong> JP Morgan</strong>. En el que aprendí de Asistencia Técnica, Redes informáticas, Sistemas Operativos, Administración de Sistema y Servicios de Infraestructura, Seguridad Informática y Humanística. La cual pude aprobar safisfactoriamente y conseguir mi primer empleo en el area IT por los conomientos brindados por esta capacitacion.
+               </p>
+               <br>
+               <p>🔹 En <strong>2020</strong> ingrese a un curso de Armado y Reparacion de la computadoras para aprender mas sobre el funcionamiento y especicaciones de las mimas, y luego poder llevarlo a practica con mi propio equipo</p>
+               <br>
+               <p>
+                  🔹 ​Me considero una persona alegre, empática y responsable, que se enfoca en el trabajo en equipo para lograr los objetivos propuestos.
+               </p>
+            </div>
+
+            </div>
+
+
+        </section>
+        <!--PROJECTOS-->
+        <section class="projects" id="projects">
+            <h2>Projectos Realizados</h2>
+            <div class="listaproyectos">
+                <div class="projectosdetalles" onclick="Function();">
+                    <img src="img/s3f.png" alt="">
+                    <h3>Proyecto 1</h3>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+                <div class="projectosdetalles" onclick="Function();">
+                    <img src="img/s3f.png" alt="">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripcion del Proyecto</p>
+                    
+                </div>
+                <div class="projectosdetalles" onclick="Function();">
+                    <img src="img/s3f.png" alt="">
+                    <h3>Proyecto 3</h3>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+                <div class="projectosdetalles" onclick="Function();">
+                    <img src="img/s3f.png" alt="Imagen de Proyecto">
+                    <h3>Proyecto 4</h3>
+                    <p>Descripcion del Proyecto</p>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACTO-->
+
+        <section id="contact" class="contact">
+            <h2>Contacta conmigo</h2>
+            <div id="form">
+        <form action="">
+            <label for="nombreapellido">Nombre Completo</label>
+            <input type="text" id="nombreapellido">
+
+            <label for="correoelectronico">Correo Electronico</label>
+            <input type="text" id="correoelectronico">
+
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="90" rows="10"></textarea>
+        
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+        </div>
+        </section>
+       
+    </main>
+
+    <!--PIE DE PAGINA-->
+
+    <footer>
+        <p>Copyright Gaston Vargas CV © 2023</p>
+    </footer>
+</body>
+
+</html>
